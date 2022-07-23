@@ -1,0 +1,131 @@
+.sec3-title h2{
+    font-weight: 500;
+    font-size: 59px !important;
+    color: var(--colortext);
+
+}
+.sec3-item{
+    /* background-color: var(--bg-nav); */
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.sec3-item h3{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.sec3-item:hover i{
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.945);
+    transition: all 1s ease;
+        background-color: var(--bg-nav);
+        border-radius: 20px;
+}
+
+
+.sec3-item i{
+    font-size: 40px;
+
+    color: white;
+  
+    padding: 30px;
+    margin: 20px;
+}
+.sec3-item i:hover{
+
+    color: var(--colorhover);
+    transition: all 0.5s ease-in;
+}
+.skillsCard{
+    background-color: #152e47c7;
+    border-radius: 0px 50px;
+    border: 2px solid;
+    transition: all 0.5s ease-in-out;
+    width: 50%;
+    margin: auto;
+}
+
+.skillsCard:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.sec3-item img{
+    width: 50%;
+    margin-bottom: 30%;
+}
+
+.skillsCard:hover h3{
+    opacity: 1;
+}
+
+
+
+@media all and (max-width: 480px){
+
+    .skillsCard{
+        background-color: #152e47c7;
+        border-radius: 0px 50px;
+        border: 2px solid;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        margin: auto;
+    }
+    .sec3-item img{
+        width: 20%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .sec3-item i{
+        font-size: 70px;
+    }
+    .sec3-item{
+        margin-right: 0;
+    }
+
+}
+@media all and (min-width: 480px) and (max-width: 768px){
+    .skillsCard{
+        background-color: #152e47c7;
+        border-radius: 0px 50px;
+        border: 2px solid;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        margin: auto;
+    }
+    .sec3-item img{
+        width: 20%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .sec3-item i{
+        font-size: 70px;
+    }
+    .sec3-item{
+        margin-right: 0;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .skillsCard{
+        background-color: #152e47c7;
+        border-radius: 0px 50px;
+        border: 2px solid;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        margin: auto;
+    }
+    .sec3-item img{
+        width: 20%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .sec3-item i{
+        font-size: 70px;
+    }
+    .sec3-item{
+        margin-right: 0;
+    }
+}

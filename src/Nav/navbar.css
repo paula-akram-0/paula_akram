@@ -1,0 +1,20 @@
+.navbar-nav .nav-item:hover .nav-link {
+    color: var(--colorhover) ;
+    transition: 0.5s ease;
+
+}
+ .navbar-brand:hover {
+    color: var(--colorhover) !important;
+    transition: 0.5s ease;
+
+}
+.navbar-brand{
+    font-size: 30PX;
+    font-weight: 600;
+}
+
+.navbar{
+    background-color: var(--bg-nav) ;
+    padding: 10px;
+    box-shadow: -2px 7px 14px 8px #88cfc1;
+}

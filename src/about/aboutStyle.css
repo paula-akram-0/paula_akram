@@ -1,0 +1,160 @@
+.sec2-content h2{
+    font-size: 59px;
+    letter-spacing: 20px;
+    font-weight: 500;
+}
+.sec2-content h4{
+    font-weight: 600;
+    position: relative;
+}
+
+.lineText1::before{
+    content: "";
+    width: 22%;
+    height: 2px;
+    background-color: var(--backgroundcolor);
+    position: absolute;
+    top: 100%;
+}
+.lineText2::before{
+    content: "";
+    width: 13%;
+    height: 2px;
+    background-color: var(--backgroundcolor);
+    position: absolute;
+    top: 100%;
+}
+
+.sec2-content p{
+    font-size: 16px;
+}
+
+.download-cv{
+    background-color: var(--colorhover);
+    padding: 20px 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.download-cv:hover{
+    background: none;
+    border: 1px solid var(--colorhover);
+    transition: all 0.5s ease;
+
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sec2-content{
+    background-color: #152e47c7;
+    border-radius: 0px 50px;
+    border: 2px solid;
+    transition: all 0.5s ease-in-out;
+    width: 50%;
+    margin: auto;
+    
+}
+.sec2-content:hover{
+    background-color: #000000;
+    color: white;
+}
+.sec2-content:hover .prag{
+    color: white;
+}
+.sec2-content:hover .download-cv{
+    background: none;
+    border: 1px solid var(--colorhover);
+    transition: all 0.5s ease;
+    color: white;
+}
+.prag{
+    color:#1ABC9C;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 480px){
+
+   
+    .sec2-content{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .lineText1::before{
+        content: "";
+        width: 49%;
+        height: 2px;
+        background-color: var(--backgroundcolor);
+        position: absolute;
+        top: 105%;
+    }
+    .lineText2::before{
+        content: "";
+        width: 29%;
+        height: 2px;
+        background-color: var(--backgroundcolor);
+        position: absolute;
+        top: 105%;
+    }
+
+}
+@media all and (min-width: 480px) and (max-width: 768px){
+    .sec2-content{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .lineText1::before{
+        content: "";
+        width: 33%;
+        height: 2px;
+        background-color: var(--backgroundcolor);
+        position: absolute;
+        top: 105%;
+    }
+    .lineText2::before{
+        content: "";
+        width: 20%;
+        height: 2px;
+        background-color: var(--backgroundcolor);
+        position: absolute;
+        top: 105%;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+       
+    .sec2-content{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .lineText1::before{
+        content: "";
+        width: 23%;
+        height: 2px;
+        background-color: var(--backgroundcolor);
+        position: absolute;
+        top: 105%;
+    }
+    .lineText2::before{
+        content: "";
+        width: 14%;
+        height: 2px;
+        background-color: var(--backgroundcolor);
+        position: absolute;
+        top: 105%;
+    }
+}
