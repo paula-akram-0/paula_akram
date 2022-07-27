@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://paula-akram-0.github.io//",
+  "homepage": "http://paula-akram-0.github.io/paula_akram/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
     "@testing-library/jest-dom": "^5.16.4",
