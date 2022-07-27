@@ -61,7 +61,7 @@ window.onload = function() {
   
   return (
     <>
-          <div className="content-home d-flex flex-column justify-content-center">
+          <div className="content-home d-flex flex-column justify-content-center align-items-center">
             <div>
             <img src={myphoto}/>
             </div>
@@ -77,10 +77,13 @@ window.onload = function() {
   </span>
 </h3>
 
-          <div className="mt-2 bt">
-          
+          <div className="mt-2 bt d-flex  flex-column justify-content-center align-items-center w-100 ">
+          <btn>
           <a download="" className="btn btn2 GET-CV" href="https://drive.google.com/file/d/10RgFTFFdfJijtm1T3ElPR7YNiK5EMMPo/view?usp=sharing">GET CV</a>
+          </btn>
+         
           <div className="row mt-2 justify-content-center">
+            
             <div className="col-md-4 sec1-icons">
               <a href="https://www.facebook.com/bola.akram/" target="_blank"><i className="fa-brands fa-facebook-f fs-3"></i></a>
             </div>
